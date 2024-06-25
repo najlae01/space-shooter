@@ -1,7 +1,7 @@
 # Galactic Defender
 
 ## Overview
-**Galactic Defender** is an space shooter mobile game where players control a spaceship to navigate and survive against waves of enemies. The game features auto-firing bullets, allowing players to focus on dodging enemy attacks and maintaining strategic positioning within the game boundaries. The ultimate goal is to achieve high scores and progress through increasingly challenging levels.
+**Galactic Defender** is a space shooter mobile game where players control a spaceship to navigate and survive against waves of enemies. The game features auto-firing bullets, allowing players to focus on dodging enemy attacks and maintaining strategic positioning within the game boundaries. The ultimate goal is to achieve high scores and progress through increasingly challenging levels.
 
 ## Game Scenes
 
