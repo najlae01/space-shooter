@@ -16,23 +16,24 @@ public class ButtonController : MonoBehaviour
     public void LoadLevelString(string levelName)
     {
         Debug.Log("LoadLevelString called with level: " + levelName);
-        LevelManager.levelManager.ControlModePanel();
-        StartCoroutine(LoadLevelWithConfirmation(levelName));
-        //FadeCanvas.fader.FaderloadString(levelName);
+        //LevelManager.levelManager.ControlModePanel();
+        //StartCoroutine(LoadLevelWithConfirmation(levelName));
+        FadeCanvas.fader.FaderloadString(levelName);
     }
 
     public void LoadLevelInt(int levelIndex)
     {
         Debug.Log("LoadLevelInt called with level index: " + levelIndex);
-        LevelManager.levelManager.ControlModePanel();
-        StartCoroutine(LoadLevelWithConfirmation(levelIndex));
-        //FadeCanvas.fader.FaderloadInt(levelIndex);
+        //LevelManager.levelManager.ControlModePanel();
+        //StartCoroutine(LoadLevelWithConfirmation(levelIndex));
+        FadeCanvas.fader.FaderloadInt(levelIndex);
     }
 
     public void Restartlevel()
     {
-        LevelManager.levelManager.ControlModePanel();
-        StartCoroutine(RestartLevelWithConfirmation());
+        //LevelManager.levelManager.ControlModePanel();
+        //StartCoroutine(RestartLevelWithConfirmation());
+        StartCoroutine(RestartLevelWithNoConfirmation());
     }
 
     public void ActivateControlMode()
@@ -99,5 +100,10 @@ public class ButtonController : MonoBehaviour
         {
             FadeCanvas.fader.FaderloadInt(SceneManager.GetActiveScene().buildIndex); // Restart the level
         }
+    }
+    private IEnumerator RestartLevelWithNoConfirmation()
+    {
+        FadeCanvas.fader.FaderloadInt(SceneManager.GetActiveScene().buildIndex); // Restart the level
+        yield return null;
     }
 }

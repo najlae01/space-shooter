@@ -1938,14 +1938,30 @@ PrefabInstance:
     - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 494d1e283c9f19b45a4af774d3c61bf7, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_BehaviorType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_InferenceDevice
-      value: 3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: 'm_BrainParameters.VectorActionSize.Array.data[0]'
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.m_ActionSpec.m_NumContinuousActions
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 756343926255944625, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_RootOrder
@@ -1994,6 +2010,22 @@ PrefabInstance:
     - target: {fileID: 4028341234824409470, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_Name
       value: PlayerForML
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: MaxStep
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: safeDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.y
+      value: -0.4383175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3234,6 +3266,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2057235492}
     m_Modifications:
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 756343926255944625, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3281,6 +3325,18 @@ PrefabInstance:
     - target: {fileID: 4028341234824409470, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_Name
       value: PlayerForML (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: safeDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.x
+      value: -9.978481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.y
+      value: -0.4383175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3880,6 +3936,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1706794851}
     m_Modifications:
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 756343926255944625, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3927,6 +3995,22 @@ PrefabInstance:
     - target: {fileID: 4028341234824409470, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_Name
       value: PlayerForML (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: safeDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioMaxBounds.y
+      value: -0.4383175
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.x
+      value: -9.978481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.y
+      value: -0.4383175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4556,6 +4640,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1972266592}
     m_Modifications:
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 756343926255944625, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4603,6 +4699,18 @@ PrefabInstance:
     - target: {fileID: 4028341234824409470, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_Name
       value: PlayerForML (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: safeDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.x
+      value: -9.978481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.y
+      value: -0.4383175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5023,6 +5131,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1926979374}
     m_Modifications:
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 756343926255944625, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5070,6 +5190,18 @@ PrefabInstance:
     - target: {fileID: 4028341234824409470, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_Name
       value: PlayerForML (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: safeDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.x
+      value: -9.978481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.y
+      value: -0.4383175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5381,6 +5513,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1195133238}
     m_Modifications:
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 756343926255944625, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5428,6 +5572,18 @@ PrefabInstance:
     - target: {fileID: 4028341234824409470, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_Name
       value: PlayerForML (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: safeDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.x
+      value: -9.978481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.y
+      value: -0.4383175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5447,6 +5603,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 419200083}
     m_Modifications:
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 756343926255944625, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5494,6 +5662,18 @@ PrefabInstance:
     - target: {fileID: 4028341234824409470, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
       propertyPath: m_Name
       value: PlayerForML (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: safeDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.x
+      value: -9.978481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209927126455370045, guid: c9fb2564db5cf8a468bd7e7d90b8ff11, type: 3}
+      propertyPath: scenarioOriginPosition.y
+      value: -0.4383175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

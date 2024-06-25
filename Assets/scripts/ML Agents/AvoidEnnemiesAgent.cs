@@ -75,6 +75,7 @@ public class AvoidEnnemiesAgent : Agent
             if (collision.CompareTag("Enemy"))
             {
                 AddReward(-1f);
+                EndEpisode() ;
             }
         }
     }

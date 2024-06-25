@@ -2306,18 +2306,26 @@ PrefabInstance:
     - target: {fileID: 165745919353195733, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 494d1e283c9f19b45a4af774d3c61bf7, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 8336d7062952d6646826d39164382cb5, type: 3}
     - target: {fileID: 165745919353195733, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
       propertyPath: m_BehaviorName
       value: ShipAgent
       objectReference: {fileID: 0}
     - target: {fileID: 165745919353195733, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 165745919353195733, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
       propertyPath: m_BrainParameters.VectorObservationSize
-      value: 5
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 165745919353195733, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 756343926255944625, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
       propertyPath: m_RootOrder
@@ -2384,7 +2392,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4028341234824409470, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
       insertIndex: 8
-      addedObject: {fileID: 7160586976255715120}
+      addedObject: {fileID: 7160586976255715122}
     - targetCorrespondingSourceObject: {fileID: 4028341234824409470, guid: eaa29c68ba91044498adb928cc31ad90, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7160586976255715108}
@@ -2422,23 +2430,6 @@ MonoBehaviour:
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &7160586976255715120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7160586976255715107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b1705fb000330046abe1a977bebcc9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agentParameters:
-    maxStep: 0
-  hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
-  movementSpeed: 5
 --- !u!114 &7160586976255715121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2453,6 +2444,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
+--- !u!114 &7160586976255715122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7160586976255715107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 922d2dc4785aeaa4f9bcdff37a7abe71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  movementSpeed: 5
+  scenarioOriginPosition: {x: 0, y: 0}
+  scenarioMaxSize: {x: 4, y: 5}
+  safeDistance: 0.5
 --- !u!1001 &7976123289863086204
 PrefabInstance:
   m_ObjectHideFlags: 0

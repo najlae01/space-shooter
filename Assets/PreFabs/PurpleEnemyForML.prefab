@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8315605094237032626}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightCanon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,9 +47,9 @@ GameObject:
   - component: {fileID: 3414947703083397826}
   - component: {fileID: 1724336013393483454}
   - component: {fileID: 8840618127407069650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PurpleEnemyForML
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -372,7 +372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 890650062935757620}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftCanon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
