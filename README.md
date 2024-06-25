@@ -40,6 +40,10 @@ Progression mechanics:
 This scene appears after the player wins or loses a level. It displays the player's score, the high score, and provides options to either quit the game or play the next level (Win case), replay the level (Lose case). Please refer to the figures above displaying the end game state.
 
 
+## Game HUD
+The game HUD includes a health bar located at the top left side of the screen, allowing players to monitor their ship's health. The score is displayed at the top right corner, keeping players informed of their current points.
+
+
 ## Game Controls
 
 ### Manual Control
