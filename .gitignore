@@ -77,3 +77,5 @@ Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSu
 Library/PackageCache/com.unity.burst@1.8.4/.Runtime/libburst-llvm-14.dylib
 numpy-1.22.4+mkl-cp310-cp310-win_amd64.whl
 Library/PackageCache/com.unity.burst@1.8.4/.Runtime/burst-llvm-14.dll
+mlAgentsEnv-env/Lib/
+mlAgentsEnv-env/Library/
