@@ -79,3 +79,5 @@ numpy-1.22.4+mkl-cp310-cp310-win_amd64.whl
 Library/PackageCache/com.unity.burst@1.8.4/.Runtime/burst-llvm-14.dll
 mlAgentsEnv-env/Lib/
 mlAgentsEnv-env/Library/
+mlAgentsEnv-env/Lib/site-packages/torch/lib/torch_cpu.dll
+mlAgentsEnv-env/Lib/site-packages/torch/lib/dnnl.lib
