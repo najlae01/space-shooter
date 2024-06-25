@@ -28,11 +28,11 @@ These levels are designed to test and challenge players with varying conditions:
 
 Progression mechanics:
 - Players unlock new levels upon successfully completing the current level.
-- 
+
 ![winScreen](https://github.com/najlae01/space-shooter/assets/88176530/b1fd91e5-a76b-47ce-9891-6dfdae67c031)
 
 - If a player fails, they can replay the level or choose another unlocked level.
-- 
+
 ![lostScreen](https://github.com/najlae01/space-shooter/assets/88176530/73563262-1a16-46e6-bd10-3452f296d513)
 
 
